@@ -1,0 +1,42 @@
+# Dataset
+dataset/
+data/
+FallDetection/
+
+# Logs
+experiments/
+/*/__pycache__
+.ipynb_checkpoints/
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.idea/ 
+
+# Result
+result/
+/results
+results/
+paper_figures_final/
+result_analysis/.DS_Store
+.DS_Store
+/result_analysis/.ipynb_checkpoints
+
+# Local environments
+.venv/
+.venv-*/
+venv/
+
+# LaTeX and temporary manuscript outputs
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.zip
+
+# Staging output of util/build_*.py / add_cfreq_* scripts
+util/_*_artifacts/
