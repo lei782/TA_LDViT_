@@ -1,8 +1,8 @@
-# WiFi Sensing Benchmark
+# TA_LDViT
 
-[Paper](https://arxiv.org/abs/2505.21866) | [Project page](https://ai-iot-sensing.github.io/projects/project.html) | [Paper with code](https://paperswithcode.com/paper/csi-bench-a-large-scale-in-the-wild-dataset)
 
-A comprehensive benchmark and training system for WiFi sensing using CSI data. Accepted and presented at [NeurIPS 2025](https://neurips.cc/virtual/2025/loc/san-diego/poster/121605).
+
+A comprehensive benchmark and training system for WiFi sensing using CSI data. 
 
 ## Overview
 
@@ -25,16 +25,11 @@ This repository provides a unified framework for training and evaluating deep le
 
 ### Environment Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/WiAL-Real-WiFi-Sensing-Benchmark.git
-   cd WiAL-Real-WiFi-Sensing-Benchmark
-   ```
+1. Clone the repository
+ 
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install dependencies
+ 
 
    If you want to run multitask pipeline, please also install peft. As peft have version conflict in sagemaker instance, we didn't include that in requrirements.txt.  
    ```bash
